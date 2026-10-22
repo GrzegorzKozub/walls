@@ -6,6 +6,6 @@ find \
   -maxdepth 1 \
   -type f \
   -regextype posix-extended \
-  -regex '.*\.(jpg|png)$' \
+  -regex '.*\.(jpg|png|webp)$' \
   -printf '%f\n' |
   shuf -n 1
